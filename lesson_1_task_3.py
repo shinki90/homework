@@ -1,4 +1,4 @@
-user_name = input('Юлия')
+user_name = input('Введите имя:')
 print('Привет,', user_name)
 
 

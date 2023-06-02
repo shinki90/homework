@@ -1,35 +1,35 @@
-def funA():
-    print('1')
+def fun_A():
+    print(1, end='')
 
-def funB():
-    print('2')
+def fun_B():
+    print(2, end='')
 
-def funC():
-    print('3')
+def fun_C():
+    print(3, end='')
 
-def funD():
-    print('4')
+def fun_D():
+    print(4, end='')
 
-def funE():
-    print('5')
+def fun_E():
+    print(5, end='')
 
-def funF():
-    print('6')
+def fun_F():
+    print(6, end='')
 
-def funG():
-    print('7')
+def fun_G():
+    print(7, end='')
 
-def funH():
-    print('8')
+def fun_H():
+    print(8, end='')
 
-def funI():
-    print('9')
+def fun_I():
+    print(9, end='')
 
-def funJ():
-    print('0')
+def fun_J():
+    print(0, end='')
 
 #88005553535
 
-funH(),funH(),funJ(),funJ(),funE(),funE(),funE(),funC(),funE(),funC(),funE()
+fun_H(),fun_H(),fun_J(),fun_J(),fun_E(),fun_E(),fun_E(),fun_C(),fun_E(),fun_C(),fun_E()
 
 
