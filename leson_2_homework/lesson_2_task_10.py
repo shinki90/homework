@@ -1,6 +1,6 @@
 def bank(X, Y):
     for each_year in range(Y):
-        X = (X * 1.1)
+        X = round(X * 1.1)
     return X
 
 X = int(input("Сумма вклада?"))

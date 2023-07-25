@@ -10,5 +10,5 @@ def month_to_season(month):
     else:
         return "Error"
 
-season = month_to_season(13)
-print(season)
+month = int(input('Введите месяц числом:'))
+print(month_to_season(month))
