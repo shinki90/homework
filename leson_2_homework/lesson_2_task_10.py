@@ -1,10 +1,10 @@
-def bank(X, Y):
-    for each_year in range(Y):
-        X = round(X * 1.1)
-    return X
+def bank(x, y):
+    for each_year in range(y):
+        x = round(x * 1.1)
+    return round(x, 2)
 
-X = int(input("Сумма вклада?"))
-Y = int(input("На сколько лет?"))
+x = int(input("Сумма вклада? "))
+y = int(input("На сколько лет? "))
 
-print(bank(X, Y))
+print("Вы получите: ", bank(x, y))
 
