@@ -7,7 +7,6 @@ calculator  = Calculator()
 # - +
 # . .
 # n 0
-print("start")
 res = calculator.sum(5, 5)
 assert res == 10
 
@@ -35,7 +34,5 @@ numbers = [1,2,3,4,5,6,7,8,9,5]
 res = calculator.avg(numbers)
 assert res == 5
 
-print("finish")
-
-# res =  calculator.div(10, 0)
-# assert res = None
+res =  calculator.div(10, 0)
+assert res == None
