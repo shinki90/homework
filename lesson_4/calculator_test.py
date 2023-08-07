@@ -4,11 +4,11 @@ from calculator import Calculator
 calculator  = Calculator()
 
 
-@pytest.mark.positive_test
-def test_pozitive_nums():
+@pytest.mark.parametrize( 'num_1, num_2, result', [(5,5,10), (-6, -10, -16)] )
+def test_nums_pozitive_nums(num_1, num_2, result):
     calculator = Calculator()
-    res = calculator.sum(5, 5)
-    assert res == 10
+    res = calculator.sum(num_1, num_2)
+    assert res == result
 
 def test_negative_nums():
     calculator = Calculator()
